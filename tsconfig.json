@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": { "outDir": "./dist", "rootDir": "./src" },
+  "references": [
+    { "path": "../engine" },
+    { "path": "../ui" },
+    { "path": "../config" },
+    { "path": "../tools" },
+    { "path": "../types" },
+    { "path": "../providers" }
+  ]
+}
